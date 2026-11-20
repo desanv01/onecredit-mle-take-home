@@ -1,0 +1,506 @@
+[
+  {
+    "anchor": {
+      "id": "SYN-000202",
+      "language": "English",
+      "description": "Home nursing care for the elderly"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000052",
+        "description": "Home nursing care for the elderly",
+        "relevant": 1,
+        "reason": "Same in-home nursing service for elderly clients."
+      },
+      {
+        "id": "SYN-000075",
+        "description": "Home nursing care for the elderly",
+        "relevant": 1,
+        "reason": "Same in-home nursing service for elderly clients."
+      },
+      {
+        "id": "SYN-000122",
+        "description": "Home nursing care for the elderly",
+        "relevant": 1,
+        "reason": "Same in-home nursing service for elderly clients."
+      },
+      {
+        "id": "SYN-000166",
+        "description": "Perkhidmatan jagaan warga emas di rumah",
+        "relevant": 1,
+        "reason": "Malay description of in-home care for elderly clients."
+      },
+      {
+        "id": "SYN-000211",
+        "description": "Perkhidmatan jagaan warga emas di rumah",
+        "relevant": 1,
+        "reason": "Malay description of in-home care for elderly clients."
+      },
+      {
+        "id": "SYN-000254",
+        "description": "Boutique hotel in the Klang Valley",
+        "relevant": 0,
+        "reason": "Boutique accommodation provides a different service from home elder care."
+      },
+      {
+        "id": "SYN-000262",
+        "description": "Perkhidmatan jagaan warga emas di rumah",
+        "relevant": 1,
+        "reason": "Malay description of in-home care for elderly clients."
+      },
+      {
+        "id": "SYN-000527",
+        "description": "Boutique hotel in the Klang Valley",
+        "relevant": 0,
+        "reason": "Boutique accommodation provides a different service from home elder care."
+      },
+      {
+        "id": "SYN-001412",
+        "description": "IT support and network installation for offices in the Klang Valley",
+        "relevant": 0,
+        "reason": "Office network installation provides a different service from home elder care."
+      }
+    ]
+  },
+  {
+    "anchor": {
+      "id": "SYN-000379",
+      "language": "English",
+      "description": "Manufacture of furniture from rubberwood"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000008",
+        "description": "Manufacture of furniture from rubberwood",
+        "relevant": 1,
+        "reason": "Manufactures furniture using the same wood."
+      },
+      {
+        "id": "SYN-000069",
+        "description": "Manufacture of furniture from rubberwood",
+        "relevant": 1,
+        "reason": "Manufactures furniture using the same wood."
+      },
+      {
+        "id": "SYN-000082",
+        "description": "Pembuatan perabot daripada kayu getah",
+        "relevant": 1,
+        "reason": "Malay description of rubberwood furniture manufacturing."
+      },
+      {
+        "id": "SYN-000113",
+        "description": "Manufacture of plastic packaging for food products",
+        "relevant": 0,
+        "reason": "Makes plastic food packaging, a different manufactured product."
+      },
+      {
+        "id": "SYN-000114",
+        "description": "Manufacture of plastic packaging for food products",
+        "relevant": 0,
+        "reason": "Makes plastic food packaging, a different manufactured product."
+      },
+      {
+        "id": "SYN-000119",
+        "description": "Manufacture of furniture from rubberwood",
+        "relevant": 1,
+        "reason": "Manufactures furniture using the same wood."
+      },
+      {
+        "id": "SYN-000189",
+        "description": "Manufacture of plastic packaging for food products",
+        "relevant": 0,
+        "reason": "Makes plastic food packaging, a different manufactured product."
+      },
+      {
+        "id": "SYN-000206",
+        "description": "Pembuatan perabot daripada kayu getah",
+        "relevant": 1,
+        "reason": "Malay description of rubberwood furniture manufacturing."
+      },
+      {
+        "id": "SYN-000288",
+        "description": "Pembuatan perabot daripada kayu getah",
+        "relevant": 1,
+        "reason": "Malay description of rubberwood furniture manufacturing."
+      }
+    ]
+  },
+  {
+    "anchor": {
+      "id": "SYN-000645",
+      "language": "Malay",
+      "description": "Kerja-kerja kejuruteraan awam jalan dan saliran"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000045",
+        "description": "Civil engineering works for roads and drainage",
+        "relevant": 1,
+        "reason": "English description of road and drainage civil engineering."
+      },
+      {
+        "id": "SYN-000085",
+        "description": "Kerja-kerja kejuruteraan awam jalan dan saliran",
+        "relevant": 1,
+        "reason": "Same civil engineering activity for roads and drainage."
+      },
+      {
+        "id": "SYN-000116",
+        "description": "Pengubahsuaian dan kerja dalaman pejabat",
+        "relevant": 0,
+        "reason": "Renovates office interiors, a different construction activity."
+      },
+      {
+        "id": "SYN-000142",
+        "description": "Pengubahsuaian dan kerja dalaman pejabat",
+        "relevant": 0,
+        "reason": "Renovates office interiors, a different construction activity."
+      },
+      {
+        "id": "SYN-000251",
+        "description": "Kerja-kerja kejuruteraan awam jalan dan saliran",
+        "relevant": 1,
+        "reason": "Same civil engineering activity for roads and drainage."
+      },
+      {
+        "id": "SYN-000295",
+        "description": "Civil engineering works for roads and drainage",
+        "relevant": 1,
+        "reason": "English description of road and drainage civil engineering."
+      },
+      {
+        "id": "SYN-000325",
+        "description": "Pengubahsuaian dan kerja dalaman pejabat",
+        "relevant": 0,
+        "reason": "Renovates office interiors, a different construction activity."
+      },
+      {
+        "id": "SYN-000338",
+        "description": "Civil engineering works for roads and drainage",
+        "relevant": 1,
+        "reason": "English description of road and drainage civil engineering."
+      },
+      {
+        "id": "SYN-000585",
+        "description": "Kerja-kerja kejuruteraan awam jalan dan saliran",
+        "relevant": 1,
+        "reason": "Same civil engineering activity for roads and drainage."
+      }
+    ]
+  },
+  {
+    "anchor": {
+      "id": "SYN-000732",
+      "language": "English",
+      "description": "Cold chain transport and storage of frozen goods"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000033",
+        "description": "Wholesale distribution of frozen food to restaurants",
+        "relevant": 0,
+        "reason": "Wholesales frozen food to restaurants, a different supply-chain service."
+      },
+      {
+        "id": "SYN-000112",
+        "description": "Cold chain transport and storage of frozen goods",
+        "relevant": 1,
+        "reason": "Same cold-chain transport and frozen goods storage."
+      },
+      {
+        "id": "SYN-000126",
+        "description": "Wholesale distribution of frozen food to restaurants",
+        "relevant": 0,
+        "reason": "Wholesales frozen food to restaurants, a different supply-chain service."
+      },
+      {
+        "id": "SYN-000137",
+        "description": "Cold chain transport and storage of frozen goods",
+        "relevant": 1,
+        "reason": "Same cold-chain transport and frozen goods storage."
+      },
+      {
+        "id": "SYN-000153",
+        "description": "Perkhidmatan pengangkutan dan penyimpanan barangan sejuk beku",
+        "relevant": 1,
+        "reason": "Malay description of transporting and storing frozen goods."
+      },
+      {
+        "id": "SYN-000177",
+        "description": "Wholesale distribution of frozen food to restaurants",
+        "relevant": 0,
+        "reason": "Wholesales frozen food to restaurants, a different supply-chain service."
+      },
+      {
+        "id": "SYN-000179",
+        "description": "Cold chain transport and storage of frozen goods",
+        "relevant": 1,
+        "reason": "Same cold-chain transport and frozen goods storage."
+      },
+      {
+        "id": "SYN-000234",
+        "description": "Perkhidmatan pengangkutan dan penyimpanan barangan sejuk beku",
+        "relevant": 1,
+        "reason": "Malay description of transporting and storing frozen goods."
+      },
+      {
+        "id": "SYN-000355",
+        "description": "Perkhidmatan pengangkutan dan penyimpanan barangan sejuk beku",
+        "relevant": 1,
+        "reason": "Malay description of transporting and storing frozen goods."
+      }
+    ]
+  },
+  {
+    "anchor": {
+      "id": "SYN-001169",
+      "language": "English",
+      "description": "Operating cafes and coffee shops in Johor Bahru"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000104",
+        "description": "Operating cafes and coffee shops in Johor Bahru",
+        "relevant": 1,
+        "reason": "Same café and coffee-shop operation in Johor Bahru."
+      },
+      {
+        "id": "SYN-000271",
+        "description": "Operating cafes and coffee shops in Ipoh",
+        "relevant": 1,
+        "reason": "Operates cafés and coffee shops in another city."
+      },
+      {
+        "id": "SYN-000344",
+        "description": "Operating cafes and coffee shops in Kuantan",
+        "relevant": 1,
+        "reason": "Operates cafés and coffee shops in another city."
+      },
+      {
+        "id": "SYN-000393",
+        "description": "Mengusahakan kedai kopi dan kafe di Johor Bahru",
+        "relevant": 1,
+        "reason": "Malay description of the same café and coffee-shop operation."
+      },
+      {
+        "id": "SYN-000463",
+        "description": "Operating cafes and coffee shops in Kuantan",
+        "relevant": 1,
+        "reason": "Operates cafés and coffee shops in another city."
+      },
+      {
+        "id": "SYN-000588",
+        "description": "Operating cafes and coffee shops in Ipoh",
+        "relevant": 1,
+        "reason": "Operates cafés and coffee shops in another city."
+      },
+      {
+        "id": "SYN-001260",
+        "description": "Operating cafes and coffee shops in Johor Bahru",
+        "relevant": 1,
+        "reason": "Same café and coffee-shop operation in Johor Bahru."
+      },
+      {
+        "id": "SYN-001466",
+        "description": "Operating cafes and coffee shops in Johor Bahru",
+        "relevant": 1,
+        "reason": "Same café and coffee-shop operation in Johor Bahru."
+      },
+      {
+        "id": "SYN-001596",
+        "description": "Operating cafes and coffee shops in Penang",
+        "relevant": 1,
+        "reason": "Operates cafés and coffee shops in another city."
+      }
+    ]
+  },
+  {
+    "anchor": {
+      "id": "SYN-001318",
+      "language": "Malay",
+      "description": "Tadika swasta dan taska di Penang"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000078",
+        "description": "Tadika swasta dan taska di Seremban",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in another city."
+      },
+      {
+        "id": "SYN-000322",
+        "description": "Tadika swasta dan taska di Melaka",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in another city."
+      },
+      {
+        "id": "SYN-000358",
+        "description": "Tadika swasta dan taska di Penang",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in Penang."
+      },
+      {
+        "id": "SYN-000383",
+        "description": "Tadika swasta dan taska di Penang",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in Penang."
+      },
+      {
+        "id": "SYN-000562",
+        "description": "Tadika swasta dan taska di Penang",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in Penang."
+      },
+      {
+        "id": "SYN-001011",
+        "description": "Tadika swasta dan taska di Kuantan",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in another city."
+      },
+      {
+        "id": "SYN-001126",
+        "description": "Tadika swasta dan taska di Kuantan",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in another city."
+      },
+      {
+        "id": "SYN-001585",
+        "description": "Tadika swasta dan taska di Kuching",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in another city."
+      },
+      {
+        "id": "SYN-001881",
+        "description": "Tadika swasta dan taska di Seremban",
+        "relevant": 1,
+        "reason": "Same private kindergarten and childcare services in another city."
+      }
+    ]
+  },
+  {
+    "anchor": {
+      "id": "SYN-001322",
+      "language": "Malay",
+      "description": "Pembangunan perisian perakaunan untuk perniagaan kecil"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000023",
+        "description": "Pembangunan perisian perakaunan untuk perniagaan kecil",
+        "relevant": 1,
+        "reason": "Same accounting software development for small businesses."
+      },
+      {
+        "id": "SYN-000076",
+        "description": "Perniagaan dalam talian produk bayi",
+        "relevant": 0,
+        "reason": "Sells baby products online, a different activity from developing software."
+      },
+      {
+        "id": "SYN-000109",
+        "description": "Pembangunan perisian perakaunan untuk perniagaan kecil",
+        "relevant": 1,
+        "reason": "Same accounting software development for small businesses."
+      },
+      {
+        "id": "SYN-000130",
+        "description": "Perniagaan dalam talian produk bayi",
+        "relevant": 0,
+        "reason": "Sells baby products online, a different activity from developing software."
+      },
+      {
+        "id": "SYN-000131",
+        "description": "Software development for small business accounting",
+        "relevant": 1,
+        "reason": "English description of accounting software development for small businesses."
+      },
+      {
+        "id": "SYN-000143",
+        "description": "Software development for small business accounting",
+        "relevant": 1,
+        "reason": "English description of accounting software development for small businesses."
+      },
+      {
+        "id": "SYN-000147",
+        "description": "Software development for small business accounting",
+        "relevant": 1,
+        "reason": "English description of accounting software development for small businesses."
+      },
+      {
+        "id": "SYN-000169",
+        "description": "Pembangunan perisian perakaunan untuk perniagaan kecil",
+        "relevant": 1,
+        "reason": "Same accounting software development for small businesses."
+      },
+      {
+        "id": "SYN-000205",
+        "description": "Perniagaan dalam talian produk bayi",
+        "relevant": 0,
+        "reason": "Sells baby products online, a different activity from developing software."
+      }
+    ]
+  },
+  {
+    "anchor": {
+      "id": "SYN-001512",
+      "language": "Malay",
+      "description": "Agensi pelancongan umrah dan pelancongan masuk"
+    },
+    "candidates": [
+      {
+        "id": "SYN-000049",
+        "description": "Travel agency for umrah and inbound tourism",
+        "relevant": 1,
+        "reason": "English description of umrah travel and inbound tourism services."
+      },
+      {
+        "id": "SYN-000067",
+        "description": "Travel agency for umrah and inbound tourism",
+        "relevant": 1,
+        "reason": "English description of umrah travel and inbound tourism services."
+      },
+      {
+        "id": "SYN-000121",
+        "description": "Agensi penghantaran fret dan kastam",
+        "relevant": 0,
+        "reason": "Arranges freight and customs services, a different agency activity."
+      },
+      {
+        "id": "SYN-000128",
+        "description": "Travel agency for umrah and inbound tourism",
+        "relevant": 1,
+        "reason": "English description of umrah travel and inbound tourism services."
+      },
+      {
+        "id": "SYN-000138",
+        "description": "Agensi penghantaran fret dan kastam",
+        "relevant": 0,
+        "reason": "Arranges freight and customs services, a different agency activity."
+      },
+      {
+        "id": "SYN-000212",
+        "description": "Agensi pelancongan umrah dan pelancongan masuk",
+        "relevant": 1,
+        "reason": "Same travel agency services for umrah and inbound tourism."
+      },
+      {
+        "id": "SYN-000224",
+        "description": "Agensi pelancongan umrah dan pelancongan masuk",
+        "relevant": 1,
+        "reason": "Same travel agency services for umrah and inbound tourism."
+      },
+      {
+        "id": "SYN-000250",
+        "description": "Agensi pelancongan umrah dan pelancongan masuk",
+        "relevant": 1,
+        "reason": "Same travel agency services for umrah and inbound tourism."
+      },
+      {
+        "id": "SYN-000257",
+        "description": "Agensi penghantaran fret dan kastam",
+        "relevant": 0,
+        "reason": "Arranges freight and customs services, a different agency activity."
+      }
+    ]
+  }
+]
