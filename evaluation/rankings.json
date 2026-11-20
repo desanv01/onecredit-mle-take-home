@@ -1,0 +1,217 @@
+{
+  "model_revision": "google/embeddinggemma-2:ggml-org/Q8_0@6ea3e3a309d12a4779cfda98b8c19800d2d5da71:sts",
+  "active_companies": 1992,
+  "eligible_companies_including_anchors": 1953,
+  "description_corpus_sha256": "737f25355d7521d1652c163836543227930000a1bd941025fdd259ea8881ad4f",
+  "unlabeled_pool_sha256": "881642fd0680c6bbcc97991d1521580266172dd14ba029cec21448d76fd366ff",
+  "rankings": {
+    "SYN-000202": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000052",
+          "SYN-000075",
+          "SYN-000122"
+        ],
+        "exclude_identical": [
+          "SYN-000166",
+          "SYN-000211",
+          "SYN-000262"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000052",
+          "SYN-000075",
+          "SYN-000122"
+        ],
+        "exclude_identical": [
+          "SYN-001412",
+          "SYN-000254",
+          "SYN-000527"
+        ]
+      }
+    },
+    "SYN-000379": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000008",
+          "SYN-000069",
+          "SYN-000119"
+        ],
+        "exclude_identical": [
+          "SYN-000082",
+          "SYN-000206",
+          "SYN-000288"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000008",
+          "SYN-000069",
+          "SYN-000119"
+        ],
+        "exclude_identical": [
+          "SYN-000113",
+          "SYN-000114",
+          "SYN-000189"
+        ]
+      }
+    },
+    "SYN-000645": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000085",
+          "SYN-000251",
+          "SYN-000585"
+        ],
+        "exclude_identical": [
+          "SYN-000045",
+          "SYN-000295",
+          "SYN-000338"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000085",
+          "SYN-000251",
+          "SYN-000585"
+        ],
+        "exclude_identical": [
+          "SYN-000116",
+          "SYN-000142",
+          "SYN-000325"
+        ]
+      }
+    },
+    "SYN-000732": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000112",
+          "SYN-000137",
+          "SYN-000179"
+        ],
+        "exclude_identical": [
+          "SYN-000153",
+          "SYN-000234",
+          "SYN-000355"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000112",
+          "SYN-000137",
+          "SYN-000179"
+        ],
+        "exclude_identical": [
+          "SYN-000033",
+          "SYN-000126",
+          "SYN-000177"
+        ]
+      }
+    },
+    "SYN-001169": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000104",
+          "SYN-001260",
+          "SYN-001466"
+        ],
+        "exclude_identical": [
+          "SYN-000393",
+          "SYN-000271",
+          "SYN-000588"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000104",
+          "SYN-001260",
+          "SYN-001466"
+        ],
+        "exclude_identical": [
+          "SYN-001596",
+          "SYN-000344",
+          "SYN-000463"
+        ]
+      }
+    },
+    "SYN-001318": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000358",
+          "SYN-000383",
+          "SYN-000562"
+        ],
+        "exclude_identical": [
+          "SYN-000078",
+          "SYN-001881",
+          "SYN-000322"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000358",
+          "SYN-000383",
+          "SYN-000562"
+        ],
+        "exclude_identical": [
+          "SYN-001585",
+          "SYN-001011",
+          "SYN-001126"
+        ]
+      }
+    },
+    "SYN-001322": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000023",
+          "SYN-000109",
+          "SYN-000169"
+        ],
+        "exclude_identical": [
+          "SYN-000131",
+          "SYN-000143",
+          "SYN-000147"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000023",
+          "SYN-000109",
+          "SYN-000169"
+        ],
+        "exclude_identical": [
+          "SYN-000076",
+          "SYN-000130",
+          "SYN-000205"
+        ]
+      }
+    },
+    "SYN-001512": {
+      "embedding": {
+        "ordinary": [
+          "SYN-000212",
+          "SYN-000224",
+          "SYN-000250"
+        ],
+        "exclude_identical": [
+          "SYN-000049",
+          "SYN-000067",
+          "SYN-000128"
+        ]
+      },
+      "tfidf": {
+        "ordinary": [
+          "SYN-000212",
+          "SYN-000224",
+          "SYN-000250"
+        ],
+        "exclude_identical": [
+          "SYN-000121",
+          "SYN-000138",
+          "SYN-000257"
+        ]
+      }
+    }
+  }
+}
