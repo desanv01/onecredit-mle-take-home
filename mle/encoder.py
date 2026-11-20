@@ -12,6 +12,7 @@ from urllib.request import ProxyHandler, Request, build_opener
 MODEL_ID = "google/embeddinggemma-2"
 GGUF_REVISION = "6ea3e3a309d12a4779cfda98b8c19800d2d5da71"
 DIMENSIONS = 768
+MAX_DESCRIPTION_BYTES = 4096
 STS_PREFIX = "task: sentence similarity | query: "
 
 
@@ -30,9 +31,10 @@ class GoogleEncoder:
         text = description.strip()
         if not text:
             raise ValueError("description must contain non-whitespace text")
-        # Avoid retaining long source descriptions in the cache.
-        embedding = self._encode_cached(text) if len(text) <= 4096 else self._encode_uncached(text)
-        return list(embedding)
+        # Bound inference input well below the server context. The source text
+        # remains intact in Postgres. Drop a partial code point at the boundary.
+        bounded = text.encode("utf-8")[:MAX_DESCRIPTION_BYTES].decode("utf-8", errors="ignore")
+        return list(self._encode_cached(bounded))
 
     def _encode_uncached(self, text: str) -> tuple[float, ...]:
         # llama.cpp's embedding endpoint takes raw text and adds no task prompt.

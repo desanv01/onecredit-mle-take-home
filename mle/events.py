@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import re
 from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta, timezone
 
@@ -50,7 +51,10 @@ def normalize_registration_number(value: object) -> str:
     registration = _text(value, "registrationNumber")
     if not registration:
         raise InvalidEvent("missing registrationNumber")
-    return registration.upper()
+    canonical = registration.upper()
+    if not re.fullmatch(r"SYN-[0-9]{6}", canonical):
+        raise InvalidEvent("invalid registrationNumber")
+    return canonical
 
 
 def _event_time(value: object) -> datetime:

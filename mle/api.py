@@ -30,6 +30,7 @@ LEFT JOIN companies AS candidate
     AND candidate.active
     AND candidate.registration_number <> subject.registration_number
     AND candidate.embedding IS NOT NULL
+    AND candidate.nature_of_business ~ '[^[:space:]]'
     AND candidate.model_revision = subject.model_revision
 ORDER BY candidate.embedding <=> subject.embedding, candidate.registration_number
 LIMIT %s
