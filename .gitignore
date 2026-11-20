@@ -6,3 +6,5 @@ __pycache__/
 .pyrefly/
 .env
 .DS_Store
+
+.uv-cache/
