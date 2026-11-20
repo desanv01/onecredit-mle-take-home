@@ -133,6 +133,17 @@ async def handle_delivery(message: AbstractIncomingMessage, encoder: GoogleEncod
 
 
 async def consume(encoder: GoogleEncoder) -> None:
+    while True:
+        try:
+            await consume_connection(encoder)
+        except TimeoutError:
+            # Close an uncertain settlement channel before reconnecting. The
+            # broker redelivers any message that remained unacknowledged.
+            LOGGER.warning("Broker operation timed out. Reconnecting in 1s.")
+            await asyncio.sleep(1)
+
+
+async def consume_connection(encoder: GoogleEncoder) -> None:
     port = os.environ.get("RABBITMQ_PORT", "5672")
     url = os.environ.get("RABBITMQ_URL", f"amqp://guest:guest@localhost:{port}/")
     connection = await aio_pika.connect_robust(url, timeout=IO_TIMEOUT)

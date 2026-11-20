@@ -1,9 +1,10 @@
+import asyncio
 import json
 import unittest
 from unittest.mock import AsyncMock, MagicMock, Mock, patch
 
 from mle.events import delivery_hash, parse_event
-from mle.worker import handle_delivery
+from mle.worker import consume, handle_delivery
 
 
 def delivery(event_type="company-upserted", data=None):
@@ -29,6 +30,16 @@ class WorkerTests(unittest.IsolatedAsyncioTestCase):
         )
         self.sleep = self.enterContext(patch("mle.worker.asyncio.sleep"))
 
+    async def test_broker_timeout_reconnects_after_backoff(self):
+        reconnect = self.enterContext(
+            patch("mle.worker.consume_connection", side_effect=[TimeoutError(), asyncio.CancelledError()])
+        )
+
+        with self.assertRaises(asyncio.CancelledError):
+            await consume(self.encoder)
+
+        self.assertEqual(reconnect.await_count, 2)
+        self.sleep.assert_awaited_once_with(1)
     async def test_ack_follows_completed_database_write(self):
         self.message.body = delivery(data={"natureOfBusiness": "Tea processing"})
 

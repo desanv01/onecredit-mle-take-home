@@ -60,6 +60,13 @@ class GoogleEncoderTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "invalid embedding"):
                 self.encoder.encode("Manufactures electrical components")
 
+    def test_description_is_bounded_without_splitting_a_utf8_character(self) -> None:
+        self.http.open.return_value = response([1] + [0] * (DIMENSIONS - 1))
+        self.encoder.encode("a" + "ü" * 4096)
+        request = self.http.open.call_args.args[0]
+        prompted = json.loads(request.data)["input"]
+        self.assertEqual(prompted, "task: sentence similarity | query: a" + "ü" * 2047)
+
     def test_runtime_failure_is_not_cached(self) -> None:
         self.http.open.side_effect = [URLError("offline"), response([1] * DIMENSIONS)]
         with self.assertRaisesRegex(RuntimeError, "could not get an embedding"):

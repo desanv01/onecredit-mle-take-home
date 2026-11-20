@@ -55,6 +55,7 @@ class EventTests(unittest.TestCase):
             (b"null", "event must be an object"),
             (upsert(type="new"), "unsupported event type"),
             (upsert(registrationNumber=123), "invalid registrationNumber"),
+            (upsert(registrationNumber="SYN-" + "9" * 5000), "invalid registrationNumber"),
             (upsert(registrationNumber=None), "missing registrationNumber"),
             (upsert(updatedAt=True), "invalid updatedAt"),
             (upsert(updatedAt="2026-08-14"), "invalid updatedAt"),

@@ -153,6 +153,7 @@ class PgvectorRecommendationTests(unittest.TestCase):
         self.add_company("SYN-000005", [1, 0], "model@two")
         self.add_company("SYN-000006", active=False)
         self.add_company("SYN-000007")
+        self.add_company("SYN-000008", [1, 0], description="\t\n")
 
         result = api.get_recommendations("SYN-000001")
 
